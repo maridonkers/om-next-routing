@@ -90,7 +90,7 @@
       ;; Forces post-assert fail.
       nil)))
 
-(defn create-fcn-by-props
+(defn factory-fcn-by-props
   "Gets create function for query via props."
   [props]
   {:pre [(not (nil? props))]
@@ -125,7 +125,7 @@
                      (dom/h4 nil (str "*** "(if logged-in? "LOGGED IN" "LOGGED OUT") "***"))
                      
                      (navbar navbar-props)
-                     ((create-fcn-by-props props) page-props)))))
+                     ((factory-fcn-by-props props) page-props)))))
 
 ;;-----------------
 ;; Sets page.
