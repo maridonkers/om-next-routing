@@ -4,9 +4,7 @@
 (def initial
   (atom {:app {:lc :nl-NL
                :logged-in? false ;;TODO derive from server state
-               :dimensions {:orientation :landscape
-                            :width 1024
-                            :height 768}}
+               }
 
          :navbar {:collapsed? true}
          
