@@ -32,17 +32,6 @@
              (om/get-query AboutPage)
              about-page]})
 
-;;------------------
-;; Om-next component
-;;
-;; This defines dimensions.
-(defui Dimensions
-  static om/IQuery
-  (query [this]
-         [:orientation
-          :width
-          :height]))
-
 ;;---------
 ;; Queries.
 (def app-query
