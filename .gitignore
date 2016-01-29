@@ -1,0 +1,10 @@
+/bin
+/target
+*.jar
+*.class
+/.lein-*
+*.log
+/resources/public/js
+/.classpath
+/.nrepl-port
+**/#*#
