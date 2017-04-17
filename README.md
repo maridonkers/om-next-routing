@@ -1,3 +1,3 @@
 # om-next-routing
 
-See http://www.maridonkers.info/om-next-routing-with-om-nextset-query/
+See http://www.photonsphere.org/om-next-routing-with-om-nextset-query/
